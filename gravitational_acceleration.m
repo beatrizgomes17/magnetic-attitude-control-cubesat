@@ -1,4 +1,4 @@
-function a = gravitical_acelaration(r)
+function a = gravitational_acceleration(r)
 
 % Computes the gravitational acceleration acting on a satellite
 % based on its position vector in the ECI reference frame.
