@@ -2,7 +2,7 @@
 <p align="center">
   <img src="figures/air bearing.jpeg" width="700">
 </p>
-This repository contains the MATLAB scripts developed by the student Beatriz Gomes during the Bachelor's Final Project in Aerospace Engineering at the University of Aveiro.
+This repository contains the MATLAB implementation developed during my Bachelor's Final Project in Aerospace Engineering at the University of Aveiro. The project focused on the design, simulation and preliminary experimental validation of a magnetic attitude control system for a 1U CubeSat based on magnetorquer actuation and the B-dot detumbling algorithm.
 
 The project focused on the development and preliminary experimental validation of a magnetic attitude control system for a 1U CubeSat based on magnetorquers and the B-dot detumbling algorithm. The developed code includes spacecraft dynamics post-processing, magnetorquer modelling using the Jiles–Atherton hysteresis model, UART communication with the DRV8411AEVM evaluation board, PWM generation, and Hardware-in-the-Loop (HIL) validation using the KitSat platform.
 
@@ -45,6 +45,26 @@ The project focused on the development and preliminary experimental validation o
 - Air-bearing experimental testing
 
 ---
+
+## Representative Results
+
+### Spacecraft Angular Velocity
+
+<p align="center">
+  <img src="figures/angular velocity - Cópia.png" width="700">
+</p>
+
+Reduction of the spacecraft angular velocity during the detumbling manoeuvre using the implemented B-dot control algorithm.
+
+---
+
+### Simulated Hysteresis Curve
+
+<p align="center">
+  <img src="figures/histeresis - Cópia.png" width="650">
+</p>
+
+Magnetization curve obtained using the implemented Jiles–Atherton hysteresis model.
 
 ## Requirements
 
