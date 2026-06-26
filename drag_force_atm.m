@@ -1,4 +1,4 @@
-function F_d_atm = F_arrasto_atm(r_eci, v_eci)
+function F_d_atm = drag_force_atm(r_eci, v_eci)
 
    % garantir vetores coluna
     r_eci = r_eci(:);
