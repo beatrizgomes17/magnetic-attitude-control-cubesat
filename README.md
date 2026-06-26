@@ -46,26 +46,6 @@ The project focused on the development and preliminary experimental validation o
 
 ---
 
-## Representative Results
-
-### Spacecraft Angular Velocity
-
-<p align="center">
-  <img src="figures/angular velocity - Cópia.png" width="700">
-</p>
-
-Reduction of the spacecraft angular velocity during the detumbling manoeuvre using the implemented B-dot control algorithm.
-
----
-
-### Simulated Hysteresis Curve
-
-<p align="center">
-  <img src="figures/histeresis - Cópia.png" width="650">
-</p>
-
-Magnetization curve obtained using the implemented Jiles–Atherton hysteresis model.
-
 ## Requirements
 
 - MATLAB
