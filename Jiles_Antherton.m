@@ -1,4 +1,4 @@
-function [B,M]= Jiles_Antherton_myself(H)
+function [B,M]= Jiles_Antherton(H)
 
 %Jiles-Atherton model for ferromagnetic materials
 % Allocation of persistent variables for magnetic state retention
